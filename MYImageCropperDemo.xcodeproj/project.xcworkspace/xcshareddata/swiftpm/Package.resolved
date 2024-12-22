@@ -1,0 +1,15 @@
+{
+  "originHash" : "ca0fd3e144b9115a2aa5ecabe08071400b9ab22af71c42773e8867dd8dc632e7",
+  "pins" : [
+    {
+      "identity" : "myimagecropper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mucchoo/MYImageCropper.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "01a86aa2cfb6f0e0f6ec6a3b8f3186b67540b8c0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C60900402D183E87002709DD /* MYImageCropper in Frameworks */ = {isa = PBXBuildFile; productRef = C609003F2D183E87002709DD /* MYImageCropper */; };
+		C6244B082D18421500F8CFFF /* MYImageCropper in Frameworks */ = {isa = PBXBuildFile; productRef = C6244B072D18421500F8CFFF /* MYImageCropper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6244B082D18421500F8CFFF /* MYImageCropper in Frameworks */,
 				C60900402D183E87002709DD /* MYImageCropper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +73,7 @@
 			name = MYImageCropperDemo;
 			packageProductDependencies = (
 				C609003F2D183E87002709DD /* MYImageCropper */,
+				C6244B072D18421500F8CFFF /* MYImageCropper */,
 			);
 			productName = MYImageCropperDemo;
 			productReference = C60900012D18308E002709DD /* MYImageCropperDemo.app */;
@@ -100,6 +103,9 @@
 			);
 			mainGroup = C609FFF82D18308E002709DD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C6244B062D18421500F8CFFF /* XCRemoteSwiftPackageReference "MYImageCropper" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C60900022D18308E002709DD /* Products */;
 			projectDirPath = "";
@@ -331,9 +337,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		C6244B062D18421500F8CFFF /* XCRemoteSwiftPackageReference "MYImageCropper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mucchoo/MYImageCropper.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		C609003F2D183E87002709DD /* MYImageCropper */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = MYImageCropper;
+		};
+		C6244B072D18421500F8CFFF /* MYImageCropper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6244B062D18421500F8CFFF /* XCRemoteSwiftPackageReference "MYImageCropper" */;
 			productName = MYImageCropper;
 		};
 /* End XCSwiftPackageProductDependency section */
