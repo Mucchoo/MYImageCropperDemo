@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PhotosUI
+import MYImageCropper
 
 struct ContentView: View {
     @State private var selectedImage: UIImage?
