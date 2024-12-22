@@ -40,11 +40,6 @@
 			path = SwiftUIImageCropperTests;
 			sourceTree = "<group>";
 		};
-		C609001E2D18308F002709DD /* SwiftUIImageCropperUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIImageCropperUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +82,6 @@
 			children = (
 				C60900032D18308E002709DD /* SwiftUIImageCropper */,
 				C60900142D18308F002709DD /* SwiftUIImageCropperTests */,
-				C609001E2D18308F002709DD /* SwiftUIImageCropperUITests */,
 				C60900022D18308E002709DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				C609001D2D18308F002709DD /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C609001E2D18308F002709DD /* SwiftUIImageCropperUITests */,
 			);
 			name = SwiftUIImageCropperUITests;
 			packageProductDependencies = (
@@ -395,7 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIImageCropper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = DS86AF5N83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,7 +415,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIImageCropper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = DS86AF5N83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
