@@ -53,10 +53,10 @@ struct ContentView: View {
         }
         .fullScreenCover(isPresented: $isImageCropperPresented) {
             if let image = selectedImage {
-                ImageCropView(viewModel: ImageCropViewModel(
+                ImageCropView(
                     image: image,
-                    type: .square,
-                    ondismiss: {
+                    aspectRatio: .square,
+                    onDismiss: {
                         isImageCropperPresented = false
                     },
                     onSave: { croppedImage in
@@ -65,7 +65,7 @@ struct ContentView: View {
                         }
                         isImageCropperPresented = false
                     }
-                ))
+                )
                 .ignoresSafeArea()
             }
         }
